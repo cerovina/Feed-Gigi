@@ -48,6 +48,12 @@
     animation: rotates 100s linear infinite;
     padding: 30px;
     margin-top: -18px;
+     @media (max-width: 768px) {
+        .responsive-image {
+          max-width: 300px; /* Adjust the maximum width for mobile screens */
+          height: auto;
+        }
+      }
 }
 
 .kitty:active {
